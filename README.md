@@ -10,12 +10,12 @@ This package is developed using core functionality from the [**DASCore**](https:
 
 ### 🔧 Features
 
-- 📓 A Jupyter notebook demonstrating the complete ReMi workflow
-- 🧩 Modular Python scripts for:
+- A Jupyter notebook demonstrating the complete ReMi workflow
+- Modular Python scripts for:
   - Preprocessing DAS data (e.g., tapering, filtering)
   - Slowness-frequency transformation using Tau-P methods
   - Dispersion curve picking and visualization
-- 📊 Tools for slowness-frequency image plotting and Rayleigh-wave dispersion analysis
+- Tools for slowness-frequency image plotting and Rayleigh-wave dispersion analysis
 
 ---
 
