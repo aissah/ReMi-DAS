@@ -8,7 +8,7 @@ This package is developed using core functionality from the [**DASCore**](https:
 
 ---
 
-### 🔧 Features
+### Features
 
 - A Jupyter notebook demonstrating the complete ReMi workflow
 - Modular Python scripts for:
@@ -19,9 +19,18 @@ This package is developed using core functionality from the [**DASCore**](https:
 
 ---
 
+### Synthetic study
+
+The notebook `notebooks/ReMi-DAS-synthetic.ipynb` provides a synthetic study that:
+- Generates ambient traffic-noise fields and simulates DAS strain-rate along a fiber using the `src/noise_synthetics` module.
+- Exports synthetic data to a DASCore `Patch` and runs the same ReMi workflow end-to-end (tapering, f–p transform, dispersion picking).
+
+This is useful for checking parameters and understanding expected dispersion features before applying the workflow to field datasets.
+
+---
+
 ### References
 
 - McMechan, G.A. and Yedlin, M.J., 1981. Analysis of dispersive waves by wave field transformation. *Geophysics*, 46(6), pp.869-874.  
 - Louie, J.N., 2001. Faster, better: shear-wave velocity to 100 meters depth from refraction microtremor arrays. *BSSA*, 91(2), pp.347-364. 
 - Chambers, D., Jin, G., Tourei, A., Issah, A.H.S., Lellouch, A., Martin, E.R., Zhu, D., Girard, A.J., Yuan, S., Cullison, T. and Snyder, T., 2024. Dascore: A python library for distributed fiber optic sensing. *Seismica*, 3(2), pp.10-26443.
-
